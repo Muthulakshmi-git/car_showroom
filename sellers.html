@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Sellers | Velocity Elite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body style="background: #000;">
+    <nav>
+        <div class="nav-container">
+            <div class="logo">VELOCITY<span>ELITE</span></div>
+            <div class="menu-btn" id="menuBtn"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <div class="overlay" id="overlay">
+        <div class="close-btn" id="closeBtn">&times;</div>
+        <ul class="overlay-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="models.html">All Models</a></li>
+            <li><a href="sellers.html">Top Sellers</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <section class="container" style="margin-top: 80px;">
+        <h2 class="section-title animate-up" style="color: white;">Bestsellers of the Month</h2>
+        <div class="grid">
+            <div class="card bestseller">
+                <span class="badge">#1 Best Seller</span>
+                <img src="https://images.unsplash.com/photo-1619767886558-efdc259cde1a?auto=format&fit=crop&w=500" alt="Car">
+                <div class="card-content">
+                    <h3>Neon Drift</h3>
+                    <p>Sold: 42 Units this month</p>
+                    <button class="buy-btn" style="background:#ff3e3e; color:white;">Order Now</button>
+                </div>
+            </div>
+            <div class="card bestseller">
+                <span class="badge" style="background: orange;">Trending</span>
+                <img src="https://images.unsplash.com/photo-1603584173870-7f3ca935b3f6?auto=format&fit=crop&w=500" alt="Car">
+                <div class="card-content">
+                    <h3>Silver Bullet</h3>
+                    <p>Sold: 38 Units this month</p>
+                    <button class="buy-btn" style="background:#ff3e3e; color:white;">Order Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

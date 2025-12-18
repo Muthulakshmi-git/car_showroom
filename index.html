@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velocity Elite | Luxury Showroom</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo">VELOCITY<span>ELITE</span></div>
+            <div class="menu-btn" id="menuBtn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <div class="overlay" id="overlay">
+        <div class="close-btn" id="closeBtn">&times;</div>
+        <ul class="overlay-links">
+            <li><a href="#home" onclick="closeMenu()">Home</a></li>
+            <li><a href="#models" onclick="closeMenu()">All Models</a></li>
+            <li><a href="#sellers" onclick="closeMenu()">Top Sellers</a></li>
+            <li><a href="#contact" onclick="closeMenu()">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1 class="animate-up">DRIVE THE FUTURE</h1>
+            <p class="animate-up delay-1">Experience pure performance and luxury design.</p>
+            <a href="#models" class="btn animate-up delay-2">Explore Models</a>
+        </div>
+    </section>
+
+    <section id="models" class="container">
+        <h2 class="section-title">Latest Models</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=500" alt="Supercar">
+                <div class="card-content">
+                    <h3>Phantom Series</h3>
+                    <p>V12 Engine | 700 HP</p>
+                    <button class="buy-btn">View Details</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=500" alt="Supercar">
+                <div class="card-content">
+                    <h3>Cyber GT</h3>
+                    <p>Electric | 0-60 in 2.1s</p>
+                    <button class="buy-btn">View Details</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&w=500" alt="Supercar">
+                <div class="card-content">
+                    <h3>Vertex Z</h3>
+                    <p>Hybrid | Carbon Body</p>
+                    <button class="buy-btn">View Details</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sellers" class="sellers-bg">
+        <div class="container">
+            <h2 class="section-title white">Most Popular This Month</h2>
+            <div class="grid">
+                <div class="card bestseller">
+                    <span class="badge">Best Seller</span>
+                    <img src="https://images.unsplash.com/photo-1617469767053-d3b503a0b982?auto=format&fit=crop&w=500" alt="Car">
+                    <div class="card-content">
+                        <h3>Stealth Roadster</h3>
+                        <p>Starting at $120,000</p>
+                    </div>
+                </div>
+                <div class="card bestseller">
+                    <span class="badge">Sold Out</span>
+                    <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=500" alt="Car">
+                    <div class="card-content">
+                        <h3>Horizon SUV</h3>
+                        <p>The Ultimate Luxury</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <div class="contact-box">
+            <h2>Visit Our Showroom</h2>
+            <form>
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <textarea placeholder="Which model are you interested in?"></textarea>
+                <button type="submit" class="btn">Book a Test Drive</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

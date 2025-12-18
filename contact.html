@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Velocity Elite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">VELOCITY<span>ELITE</span></div>
+            <div class="menu-btn" id="menuBtn"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <div class="overlay" id="overlay">
+        <div class="close-btn" id="closeBtn">&times;</div>
+        <ul class="overlay-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="models.html">All Models</a></li>
+            <li><a href="sellers.html">Top Sellers</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <section class="container" style="margin-top: 100px;">
+        <div class="contact-box animate-up">
+            <h2 style="margin-bottom: 20px; text-align: center;">Get in Touch</h2>
+            <p style="text-align: center; color: #888; margin-bottom: 30px;">Schedule your VIP test drive today.</p>
+            <form>
+                <div style="display: flex; gap: 20px;">
+                    <input type="text" placeholder="First Name" required>
+                    <input type="text" placeholder="Last Name" required>
+                </div>
+                <input type="email" placeholder="Your Email Address" required>
+                <select style="width: 100%; padding: 15px; background: #0b0b0b; border: 1px solid #333; color: white; margin-bottom: 20px;">
+                    <option>Select Model of Interest</option>
+                    <option>Phantom Series</option>
+                    <option>Cyber GT</option>
+                    <option>Vertex Z</option>
+                </select>
+                <textarea placeholder="Message" rows="5"></textarea>
+                <button type="submit" class="btn" style="width: 100%;">Submit Inquiry</button>
+            </form>
+        </div>
+    </section>
+
+    <footer style="text-align: center; padding: 40px; color: #555;">
+        <p>123 Luxury Way, Beverly Hills, CA</p>
+        <p>&copy; 2025 Velocity Elite Showroom</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
